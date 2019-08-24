@@ -46,6 +46,7 @@ body {
   }
   header {
     text-align: right;
+    background-size: cover;
     height: 160px;
     padding: 10px;
     background-color:#333;
