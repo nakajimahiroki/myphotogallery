@@ -12,6 +12,8 @@ body {
     margin: 0;
     background-image:
     url(../img/cologne05.jpg);
+    height: 100vh;
+    background-size: cover;
   }
 
   header h1 {
@@ -43,7 +45,7 @@ body {
   }
   
   header li > a:hover {
-    color: rgb(237, 241, 10);
+    color: darkorange;
   }
   header {
     text-align: right;
@@ -67,16 +69,25 @@ body {
   width: 25%;
   text-align: center;
   background-color: #333;
+  height: 300px;
   opacity: 0.9;
   margin-left: 100px;
   margin-top: 100px;
+  color: #FFFFFF;
 }
+
 
 .button-a {
   text-decoration: none;
-  margin:0;
   text-align: center;
   color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  font-size: 20px;
+  
+}
+
+.button-a:hover {
+  background-color: darkorange;
 }
 
 .container1 h1 {
